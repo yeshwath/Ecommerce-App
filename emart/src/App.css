@@ -81,19 +81,25 @@ body {
 .subMenu ul li {
     list-style: none;
     margin: 26px;
-    margin-top: 10px;
+    
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 10px; */
     cursor: pointer;
+    color: black;
+
 }
 
 .subMenu ul li:hover {
-    border-bottom: 2px solid white;
-    color: black;
+    border-bottom: 2px solid blue;
+    color : blue
 }
 
 .subMenu {
-    background-color: gray;
-    color: azure;
-    height: 50px;
+    background-color: yellow;
+    height: 75px;
+    color: black;
+
 }
 
 .subMenu ul {
@@ -162,19 +168,18 @@ body {
 
 .pro-selected {
     width: 30%;
+    
     border: 1px solid black;
     margin-right: 20px;
-}
-
-.pro-selected {
     position: fixed;
     width: 200px;
     top: 100;
     left: 0;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: aliceblue;
     overflow-y: auto;
     padding: 20px;
+
 }
 
 .pageSection {

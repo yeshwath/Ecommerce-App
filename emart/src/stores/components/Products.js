@@ -5,6 +5,7 @@ import Men from "./Men";
 import Women from "./Women";
 import Furniture from "./Furniture";
 import AirConditioner from "./AirConditioner";
+import Kitchen from "./Kitchen";
 
 function Products() {
   return (
@@ -16,6 +17,7 @@ function Products() {
 <Women/>
 <Furniture/>
 <AirConditioner/>
+<Kitchen/>
     </div>
   );
 }
