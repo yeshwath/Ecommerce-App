@@ -17,7 +17,7 @@ const TvPage = () => {
   const filteredProduct =
     selectedProduct.length === 0
       ? tvData
-      : tvData.filter((orange) => selectedProduct.includes(orange.company));
+      : tvData.filter((orange) => selectedProduct.includes(orange.brand));
 
   return (
     <>

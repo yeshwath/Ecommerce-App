@@ -14,6 +14,7 @@ import AcPage from './stores/pages/AcPage';
 import TvPage from './stores/pages/TvPage';
 import SpeakerPage from './stores/pages/SpeakerPage';
 import MobileSingle from './stores/singles/MobileSingle';
+import UserCart from './stores/userCart';
 function App() {
   return (
     
@@ -32,6 +33,8 @@ function App() {
         <Route path='/tv' element= {<TvPage />} />
         <Route path='/speaker' element= {<SpeakerPage />} />
         <Route path='/mobiles/:id' element = {<MobileSingle />} />
+        <Route path='/cart' element = {<UserCart />} />
+
 
 
         

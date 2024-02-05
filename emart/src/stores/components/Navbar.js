@@ -17,7 +17,13 @@ const Navbar = () => {
     <input class="form-control mr-2" type="text" placeholder="Search emart…" aria-label="Search"/>
   </form>
   <a class="navbar-brand ml-auto text-light" href="#">
-    <i class="fas fa-shopping-cart"></i> Cart
+  <Link to= '/cart'>
+          <div className="cart">Cart
+          {/* <span>
+            {cartItems.length}
+          </span> */}
+          </div>
+          </Link>
   </a>
 </nav>
 
